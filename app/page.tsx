@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 
 import bgImage from "./assets/imgs/bg.jpg";
@@ -10,7 +12,9 @@ export default function Home() {
         alt="Background_BG"
         fill //makes the image positioned absolutely
         style={{ objectFit: "cover" }}
-        className=""
+        draggable={false}
+        className="pointer-events-none"
+        onContextMenu={(e) => e.preventDefault()}
         priority
       />
       <nav>
