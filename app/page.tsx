@@ -23,7 +23,12 @@ export default function Home() {
         </ul>
       </nav>
       <main className="relative z-10 flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <h1 className="text-6xl font-bold">Memory & Magination</h1>
+        <h1 className="text-7xl font-bold text-center">
+          Childhood memories and imagination
+        </h1>
+        <span className="text-3xl text-center w-full mt-2">
+          Curiosity | Creativity | Vision
+        </span>
       </main>
       <footer className="relative z-10 w-full h-20 row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
         <span className="text-slate-700 font-medium">
