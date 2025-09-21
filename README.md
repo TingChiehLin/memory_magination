@@ -22,6 +22,14 @@ Open [http://localhost:3005](http://localhost:3005) with your browser to see the
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
+## Tech Stacks
+
+- HTML5
+- TailwildCSS (Advanced CSS3)
+- TypeScript
+- ReactJS
+- Nextjs
+
 ## Resources
 
 What resources I have used for this website. Take a look at the following resources:
